@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <H1>PROJETO (KANBAN) LISTA DE TAREFAS</H1>
+    </header>
+    <div class="container">
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Digite uma nova tarefa">
+            <button id="addTaskBtn">Adicionar Tarefa</button>
+        </div>
+
+        <div class="kanban-board">
+            <div class="column" id="open">
+                <h2>Em aberto</h2>
+                <div class="task-list" id="openTasks"></div>
+            </div>
+            <div class="column" id="bid">
+                <h2>Bid (Negociação)</h2>
+                <div class="task-list" id="bidTasks"></div>
+            </div>
+            <div class="column" id="inProgress">
+                <h2>Em andamento</h2>
+                <div class="task-list" id="inProgressTasks"></div>
+            </div>
+            <div class="column" id="done">
+                <h2>Entregue</h2>
+                <div class="task-list" id="doneTasks"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/bruno-bastos-melo-442ba9bb" target="_blank">
+                <img src="Imagens/LinkedIn.jpg" alt="LinkedIn" class="logo">
+            </a>
+            <a href="https://github.com/bastosmelo" target="_blank">
+                <img src="Imagens/GitHub.jpg" alt="GitHub" class="logo">
+            </a>
+            <a href="https://www.facebook.com/bastosmelo" target="_blank">
+                <img src="Imagens/Facebook.jpg" alt="Facebook" class="logo">
+            </a>
+            <a href="https://www.instagram.com/bastosmelo/" target="_blank">
+                <img src="Imagens/Instagram.jpg" alt="Instagram" class="logo">
+            </a>
+            <a href="https://x.com/BrunoBastosMelo" target="_blank">
+                <img src="Imagens/X-Twiter.jpg" alt="Twitter" class="logo">
+            </a>
+        </div>
+        <p>Bruno Bastos Melo © 2024. Todos os direitos reservados.</p>
+        <p><i>bruno.bastos@souunit.com.br</i></p>
+    </footer>
+</body>
+</html>
